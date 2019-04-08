@@ -49,6 +49,7 @@
 @import url(css/nice-select.css);
 @import url(css/jquery-ui.min.css);
 /* :: 3.0 Base CSS */
+
 * {
   margin: 0;
   padding: 0; }
@@ -404,7 +405,7 @@ img {
     .south-btn.btn-3:hover, .south-btn.btn-3:focus {
       color: #ffffff;
       background-color: #000000; }
-
+     
 /* :: 8.0 Header Area CSS */
 .dark .classynav ul li .dropdown,
 .dark.classy-nav-container,

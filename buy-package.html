@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title  -->
+    <title>Realtors Portal | My account</title>
+
+    <!-- Favicon  -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="south-load"></div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+
+        <!-- Top Header Area -->
+        <div class="top-header-area">
+            <div class="h-100 d-md-flex justify-content-between align-items-center">
+                <div class="email-address">
+                    <a href="mailto:admint@realtorsportal.com">admin@realtorsportal.com</a>
+                </div>
+                <div class="phone-number d-flex">
+                    <div class="icon">
+                        <img src="img/icons/phone-call.png" alt="">
+                    </div>
+                    <div class="number">
+                        <a href="tel:+45 677 8993000 223">+45 677 8993000 223</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Header Area -->
+        <div class="main-header-area" id="stickyHeader">
+            <div class="classy-nav-container breakpoint-off">
+                <!-- Classy Menu -->
+                <nav class="classy-navbar justify-content-between" id="southNav">
+
+                    <!-- Logo -->
+                    <a class="nav-brand" href="index.html"><img src="img/core-img/logo.png" alt=""></a>
+
+                    <!-- Navbar Toggler -->
+                    <div class="classy-navbar-toggler">
+                        <span class="navbarToggler"><span></span><span></span><span></span></span>
+                    </div>
+
+                    <!-- Menu -->
+                    <div class="classy-menu">
+
+                        <!-- close btn -->
+                        <div class="classycloseIcon">
+                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                        </div>
+
+                        <!-- Nav Start -->
+                        <div class="classynav">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about-us.html">About Us</a></li>
+                                <li><a href="listings.html">Properties</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="user.html">Hello Mr Tam</a></li>
+                                <li><a href="log.out.html">Log out</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+
+                            <!-- Search Form -->
+                            <div class="south-search-form">
+                                <form action="#" method="post">
+                                    <input type="search" name="search" id="search" placeholder="Search Anything ...">
+                                    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                </form>
+                            </div>
+
+                            <!-- Search Button -->
+                            <a href="#" class="searchbtn"><i class="fa" aria-hidden="true"></i></a>
+                        </div>
+                        <!-- Nav End -->
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Breadcumb Area Start ##### -->
+    <section class="breadcumb-area bg-img" style="background-image: url(img/bg-img/hero1.jpg);">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcumb-content">
+                        <h3 class="breadcumb-title">My account</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Breadcumb Area End ##### -->
+
+    <section class="south-contact-area section-padding-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-3 mx-auto">
+                    <div class="contact-heading">
+                        <h6>Menu</h6>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class=""><a class="list-group-item list-group-item-action active" data-toggle="list"  role="tab" href="#cal">Mortgage calculator</a></li>
+                      <li class=""><a class="list-group-item list-group-item-action" data-toggle="list"  role="tab" href="#profile">My profile</a></li>
+                      <li class=""><a class="list-group-item list-group-item-action" data-toggle="list" role="tab" href="#password">Change password</a></li>
+                      <li class=""><a class="list-group-item list-group-item-action" data-toggle="list"  role="tab" href="#ads">Manage ads list</a></li>
+                      <li class=""><a class="list-group-item list-group-item-action" data-toggle="list"  role="tab" href="#package">Manage packages</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-8 mx-auto tab-content">
+                    <div class="contact-form tab-pane" id="profile" role="tabpanel">
+                        <div class="contact-heading">
+                            <h6>My profile</h6>
+                        </div>
+                        <form action="#" method="post">
+                            <div class="form-group">
+                              <label><strong>User name</strong></label>
+                                <input type="text" class="form-control" name="text" id="login-name" placeholder="TamPham" disabled  style="font-size: 1rem; cursor: not-allowed;">
+                            </div>
+                            <div class="form-group" style="font-size: 1rem !important;">
+                                <label><strong>First name</strong></label>
+                                <input type="text" class="form-control" name="number" id="contact-number" placeholder="Your first name" style="font-size: 1rem;">
+                            </div>
+                            <div class="form-group">
+                                <label><strong>Email</strong></label>
+                                <input type="email" class="form-control" name="text" id="login-name" placeholder="tamrealtor@test.com" style="font-size: 1rem;">
+                            </div>
+                            <div class="form-group" style="font-size: 1rem !important;">
+                               <label><strong>Phone number</strong></label>
+                                <input type="text" class="form-control" name="phone" id="contact-number" placeholder="Your phone number" style="font-size: 1rem;">
+                            </div>
+                            <button type="submit" class="btn south-btn mx-auto">Change my setting</button>
+                        </form>
+                    </div>
+                    <!-- tab 2 -->
+                    <div class="tab-pane" id="password" role="tabpanel">
+                        <div class="contact-heading">
+                            <h6>Change password</h6>
+                        </div>
+                        <form action="#" method="post">
+                            <div class="form-group" style="font-size: 1rem !important;">
+                               <label><strong>Current password</strong></label>
+                                <input type="password" class="form-control" name="number" id="contact-number" placeholder="Your Current Password" style="font-size: 1rem;">
+                            </div>
+                            <div class="form-group" style="font-size: 1rem !important;">
+                               <label><strong>New password</strong></label>
+                                <input type="password" class="form-control" name="number" id="contact-number" placeholder="New password" style="font-size: 1rem;">
+                            </div>
+                            <div class="form-group" style="font-size: 1rem !important;">
+                                <label><strong>Confirm password</strong></label>
+                                <input type="password" class="form-control" name="number" id="contact-number" placeholder="Re-enter your password" style="font-size: 1rem;">
+                            </div>
+                            <button type="submit" class="btn south-btn mx-auto">SAVE</button>
+                        </form>
+                    </div>
+                    <!-- tab 3 -->
+                    <div class="tab-pane" id="ads" role="tabpanel">
+                        <div class="contact-heading d-flex justify-content-between">
+                            <h6>My ads list</h6>
+                            <a href="post-ads.html" class=""> <img src="img/icons/plus.png" alt="" class="mr-2">Post New Ads</a>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-4 mx-auto">
+                              <div class="single-featured-property mb-50">
+                                  <!-- Property Thumbnail -->
+                                  <div class="property-thumb">
+                                      <img src="img/bg-img/feature2.jpg" alt="">
+          
+                                      <div class="tag">
+                                          <span>For Sale</span>
+                                      </div>
+                                      <div class="list-price">
+                                          <p>$111 784</p>
+                                      </div>
+                                  </div>
+                                  <!-- Property Content -->
+                                  <div class="property-content">
+                                      <h5>Town House in Los Angeles</h5>
+                                      <p class="location"><img src="img/icons/location.png" alt="">Upper Road 3411, no.34 CA</p>
+                                      <p>Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada.</p>
+                                      <div class="property-meta-data d-flex align-items-end justify-content-between">
+                                          <div class="new-tag">
+                                              <a href="#"> 
+                                                  <img src="img/icons/edit.png" alt="">
+                                               <span>Edit</span></a>
+                                              </div>
+                                              <div class="bathroom">
+                                                 <a href="#">
+                                                    <img src="img/icons/x-button.png" alt="">
+                                                  <span>Delete</span>
+                                                 </a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-lg-4 mx-auto">
+                              <div class="single-featured-property mb-50">
+                                  <!-- Property Thumbnail -->
+                                  <div class="property-thumb">
+                                      <img src="img/bg-img/feature1.jpg" alt="">
+          
+                                      <div class="tag">
+                                          <span>For Rent</span>
+                                      </div>
+                                      <div class="list-price">
+                                          <p>$852 122</p>
+                                      </div>
+                                  </div>
+                                  <!-- Property Content -->
+                                  <div class="property-content">
+                                      <h5>Villa in Los Angeles</h5>
+                                      <p class="location"><img src="img/icons/location.png" alt="">Upper Road 3411, no.34 CA</p>
+                                      <p>Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada.</p>
+                                      <div class="property-meta-data d-flex align-items-end justify-content-between">
+                                          <div class="new-tag">
+                                              <a href="#"> 
+                                                  <img src="img/icons/edit.png" alt="">
+                                               <span>Edit</span></a>
+                                              </div>
+                                              <div class="bathroom">
+                                                 <a href="#">
+                                                    <img src="img/icons/x-button.png" alt="">
+                                                  <span>Delete</span>
+                                                 </a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-lg-4 mx-auto">
+                              <div class="single-featured-property mb-50">
+                                  <!-- Property Thumbnail -->
+                                  <div class="property-thumb">
+                                      <img src="img/bg-img/feature7.jpg" alt="">
+          
+                                      <div class="tag">
+                                          <span>For Rent</span>
+                                      </div>
+                                      <div class="list-price">
+                                          <p>$457 111</p>
+                                      </div>
+                                  </div>
+                                  <!-- Property Content -->
+                                  <div class="property-content">
+                                      <h5>Office Building</h5>
+                                      <p class="location"><img src="img/icons/location.png" alt="">Test Road 3411, no.34 Viet Nam</p>
+                                      <p>Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada.</p>
+                                      <div class="property-meta-data d-flex align-items-end justify-content-between">
+                                          <div class="new-tag">
+                                              <a href="#"> 
+                                              <img src="img/icons/edit.png" alt="">
+                                           <span>Edit</span></a>
+                                          </div>
+                                          <div class="bathroom">
+                                             <a href="#">
+                                                <img src="img/icons/x-button.png" alt="">
+                                              <span>Delete</span>
+                                             </a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                    <!-- tab 4 -->
+                    <div class="tab-pane" id="package" role="tabpanel">
+                        <div class="contact-heading">
+                            <h6>My subscribed package</h6>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 mx-auto">
+                                <div class="single-featured-property mb-50">
+                                    <!-- Property Thumbnail -->
+                                    <div class="property-thumb">
+                                        <img src="img/bg-img/sale.png" alt="">
+            
+                                        <div class="tag">
+                                            <span>For Sale</span>
+                                        </div>
+                                        <div class="list-price">
+                                            <p>$399</p>
+                                        </div>
+                                    </div>
+                                    <!-- Property Content -->
+                                    <div class="property-content">
+                                        <h5>Post Ads For Sale Only</h5>
+                                        <p class="location"><img src="img/icons/schedule.png" alt="">Start date: April 6 2019 </p>
+                                        <p> Expiry in July 12 2019.</p>
+                                        <div class="property-meta-data d-flex align-items-end justify-content-between">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mx-auto">
+                                <div class="single-featured-property mb-50">
+                                    <!-- Property Thumbnail -->
+                                    <div class="property-thumb">
+                                        <img src="img/bg-img/rent.png" alt="">
+            
+                                        <div class="tag">
+                                            <span>For Rent</span>
+                                        </div>
+                                        <div class="list-price">
+                                            <p>$399</p>
+                                        </div>
+                                    </div>
+                                    <!-- Property Content -->
+                                    <div class="property-content">
+                                        <h5>Post Ads For Rent Only</h5>
+                                        <p class="location"><img src="img/icons/schedule.png" alt="">Start date: Mar 12 2019</p>
+                                        <p> Expiry in July 12 2019.</p>
+                                        <div class="property-meta-data d-flex align-items-end justify-content-between">
+                                          </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex justify-content-center align-items-end">
+                                <!-- Submit -->
+                                    <div class="form-group mb-0">
+                                        <button type="submit" class="btn south-btn">
+                                          <a href="buy-package.html" style="color: #fff;">Buy more/Expand</a>
+                                        </button>
+                                    </div>
+                            </div>
+                          </div>
+                    </div>
+                    <!-- tab 5 -->
+                    <div class="tab-pane active" id="cal" role="tabpanel">
+                        <div class="contact-heading">
+                            <h6>Mortgage calculator</h6>
+                        </div>
+                        <form action="#" method="post">
+                            <div class="form-group" style="font-size: 1rem !important;">
+                               <label><strong>Loan amount: $</strong></label>
+                                <input type="text" class="form-control" name="number" id="contact-number" min="1" style="font-size: 1rem;">
+                            </div>
+                            <div class="form-group" style="font-size: 1rem !important;">
+                               <label><strong>Interest rate:</strong></label>
+                                <input type="password" class="form-control" name="number" id="contact-number" style="font-size: 1rem;">
+                            </div>
+                            <div class="form-group" style="font-size: 1rem !important;">
+                                <label><strong>Amortization</strong></label>
+                                <select type="password" class="form-control" name="number" id="contact-number"style="font-size: 1rem;">
+                                  <option>5 years</option>
+                                  <option>10 years</option>
+                                  <option>15 years</option>
+                                  <option>20 years</option>
+                                  <option>25 years</option>
+                                  </select>
+                            </div>
+                            <div class="form-group" style="font-size: 1rem !important;">
+                                <label><strong>Monthly:$2,620.67  </strong></label>
+                            </div>
+                            <button type="submit" class="btn south-btn mx-auto">CALCULATE</button>
+                        </form>
+                      </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-lg-9 mx-auto">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Google Maps -->
+    <div class="map-area mb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- <div id="googleMap" class="googleMap"></div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area section-padding-100-0 bg-img gradient-background-overlay" style="background-image: url(img/bg-img/cta.jpg);">
+        <!-- Main Footer Area -->
+        <div class="main-footer-area">
+            <div class="container">
+                <div class="row">
+
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-xl-3">
+                        <div class="footer-widget-area mb-100">
+                            <!-- Widget Title -->
+                            <div class="widget-title">
+                                <h6>About Us</h6>
+                            </div>
+
+                            <img src="img/bg-img/footer.jpg" alt="">
+                            <div class="footer-logo my-4">
+                                <img src="img/core-img/logo.png" alt="">
+                            </div>
+                            <p>Integer nec bibendum lacus. Suspen disse dictum enim sit amet libero males uada feugiat. Praesent malesuada.</p>
+                        </div>
+                    </div>
+
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-xl-3">
+                        <div class="footer-widget-area mb-100">
+                            <!-- Widget Title -->
+                            <div class="widget-title">
+                                <h6>Hours</h6>
+                            </div>
+                            <!-- Office Hours -->
+                            <div class="weekly-office-hours">
+                                <ul>
+                                    <li class="d-flex align-items-center justify-content-between"><span>Monday - Friday</span> <span>09 AM - 19 PM</span></li>
+                                    <li class="d-flex align-items-center justify-content-between"><span>Saturday</span> <span>09 AM - 14 PM</span></li>
+                                    <li class="d-flex align-items-center justify-content-between"><span>Sunday</span> <span>Closed</span></li>
+                                </ul>
+                            </div>
+                            <!-- Address -->
+                            <div class="address">
+                                <h6><img src="img/icons/phone-call.png" alt=""> +45 677 8993000 223</h6>
+                                <h6><img src="img/icons/envelope.png" alt=""> admin@realtorsportal.com</h6>
+                                <h6><img src="img/icons/location.png" alt=""> Main Str. no 45-46, b3, 56832, Los Angeles, CA</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-xl-3">
+                        <div class="footer-widget-area mb-100">
+                            <!-- Widget Title -->
+                            <div class="widget-title">
+                                <h6>Useful Links</h6>
+                            </div>
+                            <!-- Nav -->
+                            <ul class="useful-links-nav d-flex align-items-center">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about-us.html">About us</a></li>
+                                <li><a href="logout.html">Log out</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="#">FAQ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Single Footer Widget -->
+                    <div class="col-12 col-sm-6 col-xl-3">
+                        <div class="footer-widget-area mb-100">
+                            <!-- Widget Title -->
+                            <div class="widget-title">
+                                <h6>Featured Properties</h6>
+                            </div>
+                            <!-- Featured Properties Slides -->
+                            <div class="featured-properties-slides owl-carousel">
+                                <!-- Single Slide -->
+                                <div class="single-featured-properties-slide">
+                                    <a href="#"><img src="img/bg-img/fea-product.jpg" alt=""></a>
+                                </div>
+                                <!-- Single Slide -->
+                                <div class="single-featured-properties-slide">
+                                    <a href="#"><img src="img/bg-img/fea-product.jpg" alt=""></a>
+                                </div>
+                                <!-- Single Slide -->
+                                <div class="single-featured-properties-slide">
+                                    <a href="#"><img src="img/bg-img/fea-product.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Copywrite Text -->
+        <div class="copywrite-text d-flex align-items-center justify-content-center">
+            <p>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This website is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#" target="_blank">Tam Pham</a>
+
+        </div>
+    </footer>
+    <!-- ##### Footer Area End ##### -->
+
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+    <script src="js/classy-nav.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+    <!-- Google Maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwuyLRa1uKNtbgx6xAJVmWy-zADgegA2s"></script>
+    <script src="js/map-active.js"></script>
+
+</body>
+
+</html>
